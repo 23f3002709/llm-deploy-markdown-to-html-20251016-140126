@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+bower_components/
+dist/
+build/
+.tmp/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+
+# Logs and diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+coverage/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Misc
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Static site generators
+.out/
+public/
+.next/
+.svelte-kit/
+.nuxt/
+
+# Tests
+*.spec.js
+*.test.js
